@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ComunidadActivity"></activity>
+        <activity
+            android:name=".NavegadorActivity"
+            android:label="@string/title_activity_navegador"></activity>
+        <activity android:name=".ComunidadActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".HuellaActivity" />
         <activity android:name=".MainActivity">
