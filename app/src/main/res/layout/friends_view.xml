@@ -6,10 +6,12 @@
 
     <ImageView
         android:id="@+id/friend_img"
-        android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:src="@drawable/senora01"/>
+        android:layout_weight="1"
+        android:scaleX="1.5"
+        android:scaleY="1.25"
+        android:src="@drawable/senora01" />
     
     <LinearLayout
         android:layout_weight="2"
